@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:  hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 38vw;
+    width: 25vw;
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 20px 2px hsl(220, 15%, 55%);
+}
+
+.box img{
+    width: 18rem;
+    height: 17rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 0px;
+}
+
+.box h2{
+    text-align: center;
+    margin: 1rem;
+    font-family: Outfit;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.box p{
+    text-align: center;
+    margin: 1.4rem;
+    font-family: Outfit;
+    font-weight: 400;
+    color:hsl(220, 15%, 55%);
+}
