@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 18rem;
+    height: 30rem;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 1rem;
+}
+
+.box img{
+    width: 16rem;
+    height: 15rem;
+    margin: 1rem;
+    border-radius: 1rem;
+}
+
+.box h2{
+    color: white;
+    margin: 0 0 1rem 1rem;
+    font-size: 18px;
+    font-family: Outfit;
+}
+
+.box p{
+    color:   hsl(215, 51%, 70%);
+    margin: 1rem 1rem 1rem 1rem;
+    font-size: 14px;
+    /* padding: 5px; */
+    font-family: Outfit;
+    font-weight: 300;
+}
+
+.timer{
+    display: flex;
+}
+
+.left{
+    margin: 0 0 0 1rem;
+    display: flex;
+}
+
+.left p{
+    color: hsl(178, 100%, 50%);
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.right{
+    margin: 0 1rem 0 4rem;
+    display: flex;
+}
+
+.right p{
+    color:  hsl(215, 51%, 70%);
+    margin-top: 1px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+
+hr{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+    border-width: 1px;
+    color:hsl(217, 54%, 11%);
+    border-bottom: 0px;
+}
+
+.credit{
+    display: flex;
+}
+
+.credit img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.credit p{
+    margin-top: 1.5rem;
+    margin-left: 0.1rem;
+    font-size: 14px;
+}
+
+.credit span{
+    color: white;
+}
+
+
+
