@@ -1,0 +1,123 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 25vw;
+    height: 75vh;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+.box img{
+    width: 100%;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.box h2{
+    text-align: center;
+    margin: 1rem;
+    font-family: Red Hat Display;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.box p{
+    text-align: center;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    color:  hsl(224, 23%, 55%);
+    margin: 0 2rem 0 2rem;
+    font-size: 13px;
+}
+
+.plan{
+    width: 80%;
+    height: 5rem;
+    background-color: hsl(225, 100%, 98%);
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.7rem;
+    display: flex;
+}
+
+.icon{
+    /* color: hsl(224, 23%, 55%); */
+    /* background-color: hsl(224, 23%, 55%); */
+    margin:0.8rem 0.5rem 0.5rem 0.5rem;
+
+}
+
+.annual .p1{
+    margin-top: 1.1rem;
+    margin-left: 0;
+    /* font-family: Red Hat Display; */
+    font-weight: 700;
+    color: hsl(223, 47%, 23%) ;
+    font-family: Red Hat Display;
+
+}
+
+.annual .p2{
+    /* margin-top: 1rem; */
+    margin-left: 0;
+    margin-top: 0.4rem;
+
+}
+
+.change p{
+    margin: 1.5rem;
+    /* margin-left: 1rem; */
+}
+
+button{
+    width: 80%;
+    height: 2rem;
+    background-color:  hsl(245, 75%, 52%);
+    border: 0;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 0.6rem;
+    color: white;
+    font-family: Red Hat Display;
+    font-weight: 500;
+    box-shadow: 0.1px 6px 12px 0.5px hsl(224, 23%, 55%);
+
+}
+
+.lastpara{
+    text-align: center;
+    font-family: Red Hat Display;
+    margin-top: 1rem;
+    font-size: 12px;
+    color:hsl(224, 23%, 55%) ;
+    font-weight: 700;
+}
+
+@media (max-width:375px) {
+    .box{
+        height: 65vh;
+        width: 80vw;
+    }
+    
+}
