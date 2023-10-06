@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:opsz,wght@9..144,700&family=Hanken+Grotesk:wght@500;700;800&family=Inter:wght@400;500&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+.main{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: hsl(300, 24%, 96%);
+    /* display: flex;
+    justify-content: space-around; */
+    background: url(images/bg-pattern-top-desktop.svg) ,url(images/bg-pattern-bottom-desktop.svg) ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.top{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about{
+    margin-top: 5rem;
+}
+
+.about h1{
+    line-height: 1.8rem;
+    font-family: League Spartan;
+    color:  hsl(300, 43%, 22%);
+    /* font-size: xx-large; */
+}
+
+.about p{
+    font-family: League Spartan;
+    color:  hsl(300, 43%, 22%);
+    margin-top: 1rem;
+}
+
+.ratings{
+    margin-top: 6rem;
+}
+
+.rating1{
+    display: flex;
+    background-color: hsl(301, 52%, 83%);
+    margin-bottom: 1rem;
+    width: 20rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.rating1 p{
+    margin-left: 1rem;
+    font-family: League Spartan;
+
+}
+
+.rating2{
+    display: flex;
+    background-color: hsl(301, 52%, 83%);
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    width: 21rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.rating2 p{
+    margin-left: 1rem;
+    font-family: League Spartan;
+
+}
+
+.rating3{
+    display: flex;
+    background-color: hsl(301, 52%, 83%);
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+    width: 22rem;
+    height: 3rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.rating3 p{
+    margin-left: 1rem;
+    font-family: League Spartan;
+}
+
+.review{
+    margin-left: 7rem;
+    display: flex;
+    /* justify-content: space-around; */
+    margin-top: 1rem;
+}
+
+
+.review1{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background-color:hsl(300, 43%, 22%) ;
+}
+
+.review1 .profile-pic img{
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 1.5rem 0 0 1rem;
+}
+
+.review1 .profile-info{
+    margin: 1.75rem 1rem;
+    /* display: flex; */
+}
+
+.profile-info p{
+    color: white;
+    font-family: League Spartan;
+
+}
+
+.profile-info span{
+    color:  hsl(333, 80%, 67%);
+    font-family: League Spartan;
+
+}
+
+.person1{
+    display: flex;
+}
+
+.review1 .p1{
+    margin:1rem;
+    font-size: 0.9rem;
+    color: white;
+    font-family: League Spartan;
+    
+}
+
+/* review2 */
+
+
+.review2{
+    position: relative;
+    top: 15px;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background-color:hsl(300, 43%, 22%) ;
+    margin-left: 2rem;
+}
+
+.review2 .profile-pic img{
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 1.5rem 0 0 1rem;
+}
+
+.review2 .profile-info{
+    margin: 1.75rem 1rem;
+    /* display: flex; */
+}
+
+.profile-info p{
+    color: white;
+    font-family: League Spartan;
+
+}
+
+.profile-info span{
+    color:  hsl(333, 80%, 67%);
+    font-family: League Spartan;
+
+}
+
+.person1{
+    display: flex;
+}
+
+.review2 .p1{
+    margin:1rem;
+    font-size: 0.9rem;
+    color: white;
+    font-family: League Spartan;
+    
+}
+
+
+/* review3 */
+
+
+.review3{
+    position: relative;
+    top: 30px;
+    width: 18rem;
+    height: 12rem;
+    border-radius: 0.5rem;
+    background-color:hsl(300, 43%, 22%) ;
+    margin-left: 2rem;
+}
+
+.review3 .profile-pic img{
+    border-radius: 3rem;
+    height: 3rem;
+    margin: 1.5rem 0 0 1rem;
+}
+
+.review3 .profile-info{
+    margin: 1.75rem 1rem;
+    /* display: flex; */
+}
+
+.profile-info p{
+    color: white;
+    font-family: League Spartan;
+
+}
+
+.profile-info span{
+    color:  hsl(333, 80%, 67%);
+    font-family: League Spartan;
+
+}
+
+.person1{
+    display: flex;
+}
+
+.review3 .p1{
+    margin:1rem;
+    font-size: 0.9rem;
+    color: white;
+    font-family: League Spartan;
+    
+}
+
+
+footer{
+    margin: 5em;
+}
+
+
+@media (min-width:375px) {
+
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+    
+}
+
+
+
+
+
+
